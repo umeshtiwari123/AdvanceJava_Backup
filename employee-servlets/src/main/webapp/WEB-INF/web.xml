@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://JAVA.sun.com/xml/ns/javaee" version="2.5"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+<servlet> 
+	 	<servlet-name>abc</servlet-name>
+		<servlet-class>com.ty.employeeServlets.controller.EmployeeController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>abc</servlet-name>
+		<url-pattern>/LoginForm1</url-pattern>
+	</servlet-mapping>
+	<!--  <servlet>
+		<servlet-name>abcd</servlet-name>
+		<servlet-class>com.ty.employeeServlets.controller.EmployeeController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>abcd</servlet-name>
+		<url-pattern>/LoginForm1</url-pattern>
+	</servlet-mapping> -->
+	
+<!-- 		<servlet>
+		<servlet-name>abcd</servlet-name>
+		<servlet-class>com.ty.employeeServlets.controller.EmployeeController1</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+		<servlet-name>abc</servlet-name>
+		<url-pattern>/LoginForm1</url-pattern>
+		</servlet-mapping> -->
+
+	
+</web-app>
+
